@@ -17,8 +17,8 @@ class SinglyLinkedList {
         this.head = null;
     }
     /** Adds node to list start */
-    prepend(val) {
-        const newNode = new N(val);
+    prepend(data) {
+        const newNode = new N(data);
         newNode.next = this.head;
         this.head = newNode;
     }

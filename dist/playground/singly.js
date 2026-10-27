@@ -11,7 +11,7 @@ class SinglyLinkedList {
         this.head = null;
     }
     /** Adds node to list start */
-    prepend(val) { }
+    prepend(data) { }
     /** Adds node to list end */
     append(data) { }
     /** Removes head node */
